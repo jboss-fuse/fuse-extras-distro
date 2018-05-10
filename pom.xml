@@ -9,6 +9,12 @@
     <artifactId>fuse-extras</artifactId>
     <version>7.0.0.fuse-SNAPSHOT</version>
 
+    <parent>
+        <groupId>org.jboss</groupId>
+        <artifactId>jboss-parent</artifactId>
+        <version>26</version>
+    </parent>
+
     <name>Red Hat Fuse Extras</name>
     <description>Red Hat Fuse is an open source integration platform with capabilities based on Apache Camel, Apache CXF running on multiple platfroms like Apache Karaf, JBoss EAP, or Spring Boot</description>
 
