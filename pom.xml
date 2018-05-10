@@ -5,7 +5,7 @@
 
     <groupId>org.jboss.fuse</groupId>
     <artifactId>fuse-extras</artifactId>
-    <version>7.0.0.fuse-000001</version>
+    <version>7.0.0.fuse-000002-SNAPSHOT</version>
 
     <parent>
         <groupId>org.jboss</groupId>
@@ -21,7 +21,7 @@
     <scm>
         <connection>scm:git:git@github.com:jboss-fuse/fuse-extras-distro.git</connection>
         <developerConnection>scm:git:git@github.com:jboss-fuse/fuse-extras-distro.git</developerConnection>
-        <tag>fuse-extras-7.0.0.fuse-000001</tag>
+        <tag>master</tag>
     </scm>
 
     <organization>
