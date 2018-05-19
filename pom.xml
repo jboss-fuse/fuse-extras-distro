@@ -5,7 +5,7 @@
 
     <groupId>org.jboss.fuse</groupId>
     <artifactId>fuse-extras</artifactId>
-    <version>7.0.0.fuse-000002-SNAPSHOT</version>
+    <version>7.0.0-000002.fuse-000005</version>
 
     <parent>
         <groupId>org.jboss</groupId>
@@ -50,8 +50,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.camel>2.21.0.fuse-000077</version.camel>
-        <version.cxf>3.1.11.fuse-000243</version.cxf>
+        <version.camel>2.21.0.fuse-000086</version.camel>
+        <version.cxf>3.1.11.fuse-000254</version.cxf>
     </properties>
 
     <dependencies>
