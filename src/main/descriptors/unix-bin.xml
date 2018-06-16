@@ -33,5 +33,30 @@
             <useTransitiveDependencies>false</useTransitiveDependencies>
         </dependencySet>
     </dependencySets>
-
+    <fileSets>
+        <fileSet>
+          <directory>src/main/resources/license</directory>
+          <outputDirectory>licenses</outputDirectory>
+          <includes>
+            <include>licenses.xml</include>
+          </includes>
+        </fileSet>
+        <fileSet>
+          <directory>src/main/resources/license/licenses</directory>
+          <outputDirectory>licenses</outputDirectory>
+          <includes>
+            <include>**</include>
+          </includes>
+	  <excludes>
+	    <exclude>licenses.xsl</exclude>
+	  </excludes>
+        </fileSet>
+	<fileSet>
+	   <directory>target/assembly/licenses</directory>
+	   <outputDirectory>licenses</outputDirectory>
+           <includes>
+	     <include>*.html</include>
+           </includes>
+	</fileSet>
+    </fileSets>
 </assembly>
