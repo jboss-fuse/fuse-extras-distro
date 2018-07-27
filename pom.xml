@@ -175,13 +175,6 @@
                     </execution>
                 </executions>
             </plugin>
-        </plugins>
-    </build>
-    <profiles>
-      <profile>
-        <id>generate-licenses-xml</id>
-        <build>
-          <plugins>
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>license-maven-plugin</artifactId>
@@ -243,8 +236,6 @@
                 </execution>
               </executions>
             </plugin>
-          </plugins>
-        </build>
-      </profile>
-    </profiles>
+        </plugins>
+    </build>
 </project>
