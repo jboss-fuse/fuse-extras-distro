@@ -178,6 +178,7 @@
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>license-maven-plugin</artifactId>
+              <version>1.16.0.redhat-00001</version>
               <executions>
                 <execution>
                   <goals>
@@ -185,6 +186,7 @@
                   </goals>
                   <phase>generate-resources</phase>
                   <configuration>
+                    <httpOnly>true</httpOnly>
                     <licensesOutputDirectory>${license.dir}/licenses</licensesOutputDirectory>
                     <licensesOutputFile>${license.dir}/licenses.xml</licensesOutputFile>
                   </configuration>
