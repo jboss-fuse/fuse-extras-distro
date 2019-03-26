@@ -51,10 +51,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <version.camel>2.21.0.fuse-000077</version.camel>
-        <version.cxf>3.1.11.fuse-000243</version.cxf>
+        <version.cxf>3.2.7</version.cxf>
 
         <license.dir>${project.basedir}/src/main/resources/license</license.dir>
         <license.output.dir>${project.build.directory}/licenses</license.output.dir>
+        <version.license.maven.plugin>1.16.0.redhat-00001</version.license.maven.plugin>
     </properties>
 
     <dependencies>
@@ -178,6 +179,7 @@
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>license-maven-plugin</artifactId>
+              <version>${version.license.maven.plugin}</version>
               <executions>
                 <execution>
                   <goals>
@@ -185,6 +187,7 @@
                   </goals>
                   <phase>generate-resources</phase>
                   <configuration>
+                    <httpOnly>true</httpOnly>
                     <licensesOutputDirectory>${license.dir}/licenses</licensesOutputDirectory>
                     <licensesOutputFile>${license.dir}/licenses.xml</licensesOutputFile>
                   </configuration>
