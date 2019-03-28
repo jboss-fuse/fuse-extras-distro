@@ -50,7 +50,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.camel>2.21.0.fuse-000077</version.camel>
+        <version.camel>2.21.0.fuse-730067</version.camel>
         <version.cxf>3.2.7</version.cxf>
 
         <license.dir>${project.basedir}/src/main/resources/license</license.dir>
@@ -141,7 +141,7 @@
         </pluginRepository>
         <pluginRepository>
             <id>jboss-ea</id>
-            <url>https://origin-repository.jboss.org/nexus/content/groups/ea</url>
+            <url>https://repository.jboss.org/nexus/content/groups/ea</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
