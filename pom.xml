@@ -5,7 +5,7 @@
 
     <groupId>org.jboss.fuse</groupId>
     <artifactId>fuse-extras</artifactId>
-    <version>7.4.0.fuse-740021</version>
+    <version>7.4.0.fuse-740021-redhat-00001</version>
 
     <parent>
         <groupId>org.jboss</groupId>
@@ -50,8 +50,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.camel>2.21.0.fuse-740037</version.camel>
-        <version.cxf>3.2.7.fuse-740024</version.cxf>
+        <version.camel>2.21.0.fuse-740037-redhat-00001</version.camel>
+        <version.cxf>3.2.7.fuse-740024-redhat-00001</version.cxf>
 
         <license.dir>${project.basedir}/src/main/resources/license</license.dir>
         <license.output.dir>${project.build.directory}/licenses</license.output.dir>
